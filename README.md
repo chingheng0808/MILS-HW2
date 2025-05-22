@@ -2,7 +2,7 @@
 
 ## Data Description
 
-I manually downloaded three datasets: [COCO 2017](https://cocodataset.org/#home), [PASCAL VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html), and [Imagenette](https://paperswithcode.com/dataset/imagenette). From each original training set, I randomly selected 240 data pairs as the `train` dataset. Additionally, I selected 60 data pairs from each original validation set to serve as the `val` and `test` datasets. These were then combined to form the customized mini-dataset as described below:
+I manually downloaded three datasets: [COCO 2017](https://cocodataset.org/#home), [PASCAL VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html), and [Imagenette](https://paperswithcode.com/dataset/imagenette). From each original training set, I randomly selected 240 data pairs as the `train` dataset. Additionally, I selected 60 data pairs from each original validation set to serve as the `val` and `test` datasets. These were then combined to form the [customized mini-dataset](https://drive.google.com/drive/folders/143lCWLspf0Y6MIWcyjIVcryekkWz2sgm?usp=drive_link) as described below:
 
     data/
     ├─ mini_coco_det/{train,val,test}
@@ -86,6 +86,8 @@ where:
    ├─ det_best.pth
    ├─ seg_best.pth
    ```
+
+5. If you only want to evaluate, you can download the ckpt from this [link](https://drive.google.com/drive/folders/10lBtyoYV1PLd2ig51H-7d8FSaoajzFNi?usp=drive_link).
 
 ## Testing Steps
 
